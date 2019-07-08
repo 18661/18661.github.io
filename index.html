@@ -1,0 +1,449 @@
+<head>
+    <meta charset="utf-8">
+<title> CMU 18461/18661 </title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="fall2018.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+	 <div class="panel-footer clearfix">
+        <div class="pull-left">
+        
+            <h1>18-461/18-661: Intro to ML for Engineers</h1>
+            <p class="lead">Instructors:</p><p><a href=https://www.andrew.cmu.edu/user/cjoewong/ target="_blank">Prof. Carlee Joe-Wong</a> (SV)<br /><a href="http://users.ece.cmu.edu/~smithv/" target="_blank">Prof. Virginia Smith</a> (Pitt)</p>
+            <p class="lead">Lecture:</p>
+            <p>SV: Tues/Thurs 9:00am-10:20am PT, B23 109/110 
+            <br />Pitt: Tues/Thurs 12:00pm-1:20pm ET, HH 1107
+            <br/>Instructor office hours are held right after lectures.
+            </p>
+            <p class="lead">Recitation:</p>
+            <p>SV: Fri 2:30pm-3:50pm PT, B23 109/110
+            <br />Pitt: Fri 12:00pm-1:20pm, Scaife Hall (SH) 125</p>
+            <p class="lead"> TA Office Hours: </p>
+            <p> SV: Monday 10:30-12PM PT at Room 213 (228 on 9/10, 9/17, 10/15, 11/12), Friday 3:50-5:00PM PT at Room 213
+            <br/>Pitt: Monday 9.30-10.30AM ET at Gates 3rd floor cafe (Haewon), Wednesday 5-6PM ET at REH 351 (Joao), Friday 10-11AM ET at HH1209 (Rohan)</p>
+            </div>
+        </div>
+
+        <div class="main">
+        <br>
+        <h3>Course Overview</h3>
+        <p class="p1">This course provides an introduction to machine learning and statistical pattern recognition. We will cover approaches for supervised learning (linear models, kernel methods, decision trees, neural networks) and unsupervised learning (clustering, dimensionality reduction), as well as theoretical foundations of machine learning (learning theory, optimization). Evaluation will consist of mathematical problem sets and programming projects covering a variety of real-world applications.
+        </p>
+
+        <h3>Prerequisites</h3>
+        <p>This course is intended for graduate students and qualified undergraduate students with a strong mathematical and programming background. Undergraduate level training or coursework in algorithms, linear
+        algebra, calculus, probability, and statistics is suggested. A background in programming will also be necessary for the problem sets; students are expected to be familiar with python or learn it during the course. At CMU, this course is most similar to MLD's 10-601 or 10-701, though this course is meant specifically for students in engineering.</p>
+    
+        <h3>Textbooks</h3>
+        There will be no required textbooks, though we suggest the
+        following to help you to study (all available online):
+        <ul>
+          <li>(KM): <a href="https://ebookcentral.proquest.com/lib/cm/detail.action?docID=3339490" target="_blank">Machine Learning: A Probabilistic Perspective</a>, Kevin Murphy. Online access is free through CMU’s library. Note that to access the library, you may need to be on CMU’s network or VPN.
+          <li>(ESL): <a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/" target="_blank">Elements of Statistical Learning</a> Trevor Hastie, Robert
+          Tibshirani and Jerome Friedman. 
+          <li>(TM): <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html" target="_blank">Machine Learning</a>, Tom Mitchell.</li>
+          <li>(CIML): <a href="http://ciml.info/" target="_blank">A Course in Machine Learning</a>, Hal Daumé III.</li>
+        </ul>
+        We will provide suggested readings from these books in the schedule 
+        below.
+
+        <h3>Piazza</h3>
+        <p> We will use Piazza for class discussions. Please go to <a href=http://piazza.com/cmu/fall2018/1846118661 target="_blank" >this Piazza website</a> to join the course forum (note: you must use a cmu.edu email account to join the forum). We strongly encourage students to post on this forum rather than emailing the course staff directly (this will be more efficient for both students and staff). Students should use Piazza to: 
+        <ul>
+          <li>Ask clarifying questions about the course material.</li>
+          <li>Share useful resources with classmates (so long as they do not
+          contain homework solutions).</li>
+          <li>Look for students to form study groups.</li>
+          <li>Answer questions posted by other students to solidify your own
+          understanding of the material.</li>
+        </ul>
+        The course Academic Integrity Policy must be followed on the message boards at all times. <b>Do not post or request homework solutions!</b> Also, please be polite.
+
+        <h3>Staff Contact Info</h3>
+        <p class="lead">TAs:</p><p>
+            <table cellspacing="10">
+                <tr>
+                    <td><img src="images/guanlin.JPG" width="125px"></img>&nbsp;</td>
+                    <td> Gaun-Lin Chao (SV)&nbsp;</td>
+                    <td>guanlinc@andrew.cmu.edu</td>
+                </tr>
+                <tr>
+                    <td><img src="images/madhumithaharishankar.png" width="125px"></img>&nbsp;</td>
+                    <td>Madhumitha Harishankar (SV)&nbsp;</td>
+                    <td>mharisha@andrew.cmu.edu</td>
+                </tr>
+                <tr>
+                    <td><img src="images/mwface.png" width="90px"></img>&nbsp;</td>
+                    <td>Michael Weber (SV)&nbsp;</td>
+                    <td>mikex@cmu.edu</td>
+                </tr>
+                <tr>
+                    <td><img src="images/haewon.jpg" width="100px"></td>
+                    <td>Haewon Jeong (Pitt)&nbsp;</td>
+                    <td>haewonj@andrew.cmu.edu</td>
+                </tr>
+                <tr>
+                    <td><img src="images/jsaude.jpg" width="100px"></img>&nbsp;</td>
+                    <td>Joao Saude (Pitt)&nbsp;</td>
+                    <td>jsaude@andrew.cmu.edu</td>
+                </tr>
+                <tr>
+                    <td><img src="images/rohan.png" width="75px"></img>&nbsp;</td>
+                    <td>Rohan Varma (Pitt)&nbsp;</td>
+                    <td>rohanv@andrew.cmu.edu</td>
+                </tr>
+            </table>
+        </p>
+
+        <h3>Grading Policy</h3>
+        <p> Grades will be based on the following components: 
+        <ul>
+          <li> <b>Problem Sets (30%)</b>: There will be 6 problem sets. Each
+          each problem set will have equal weight.
+          <ul>
+            <li><b>Late submissions will not be accepted</b>. 
+            <li><i>There is one exception to this rule</i>: You are given 2 “late days” (self-granted 24-hr extensions) which you can use to give yourself extra time without penalty. <b>At most one late day can be used per assignment.</b> This will be monitored automatically via Gradescope.</li>
+            <li> Students can drop their lowest grade (i.e., only the top 5
+            grades will count).               
+            <li> Solutions will be graded on both correctness and clarity. If
+            you cannot solve a problem completely, you will get more partial
+            credit by identifying the gaps in your argument than by 
+            attempting to cover them up. 
+          </ul>
+          <li> <b>Midterm (30%), Final (40%)</b>: These in-person exams will cover material
+          from the lectures and the problem sets.
+          <li> <b>Bonus</b>: On Piazza, the top student “endorsed answer” answerers can earn bonus points.</li>
+        </ul>
+
+        <p><b>Gradescope:</b> We will use Gradescope to collect PDF submissions of each problem set. Upon uploading your PDF, Gradescope will ask you to identify which page(s) contains your solution for each problem – this is a great way to double check that you haven’t left anything out. The course staff will manually grade your submission, and you’ll receive feedback explaining your final marks.<p/>
+
+        <b>Regrade Requests:</b> If you believe an error was made during grading, you’ll be able to submit a regrade request on Gradescope. <i>For each homework, regrade requests will be open for only 1 week after the grades have been published.</i> This is to encourage you to check the feedback you’ve received early!
+
+        <h3>Academic Integrity Policy</h3>
+        Group studying and collaborating on problem sets are encouraged, as
+        working together is a great way to understand new material.  Students
+        are free to discuss the homework problems with anyone under the
+        following conditions:
+        <ul>
+          <li>Students must write their own solutions and understand the
+          solutions that they wrote down.</li>
+          <li>Students must list the names of their collaborators (i.e., anyone
+          with whom the assignment was discussed).</li>
+          <li>Students may not use old solution sets from other classes under any circumstances, unless the instructor grants
+          special permission.</li>
+        </ul>
+        
+        Students are encouraged to read CMU's <a
+          href=https://www.cmu.edu/policies/
+          target="_blank"> Policy on Cheating and Plagiarism</a>.
+
+        <h3>Using LaTeX</h3>
+        <p> Students are strongly encouraged to use LaTeX for problem sets.  LaTeX makes it
+        simple to typeset mathematical equations, and is extremely useful for
+        graduate students to know. Most of the academic papers you read were
+        written with LaTeX, and probably most of the textbooks too. <a
+          href=http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf
+          target="_blank">Here</a> is an excellent LaTeX tutorial and <a
+          href=http://latex-project.org/ftp.html target="_blank">here</a> are
+        instructions for installing LaTeX on your machine.
+        </p>
+
+        <h3>Acknowledgments</h3>
+        <p> This course is based in part on material developed by <a href=http://www-bcf.usc.edu/~feisha/ target="_blank">Fei Sha</a>, <a href="https://www.cs.cmu.edu/~atalwalk/" target="_blank">Ameet Talwalkar</a>, <a href="http://www.cs.cmu.edu/~mgormley/">Matt Gormley</a>, and <a href="https://homes.cs.washington.edu/~ebfox/">Emily Fox</a>. We also thank Anit Sahu and Joao Saude for their help with course development.
+        <hr>
+
+
+        <h3>Schedule (Subject to Change)</h3>
+        <div class="bs-example">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Topics</th>
+                        <th>Reading</th>
+                        <th>HW</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="active">
+                        <td>8/28</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1-SGi6tFDb0T369i87vW2CT8rWrNdLVlr/view?usp=sharing" target="_blank"> Introduction </a>
+                        </td>
+                        <td>KM, Ch. 1</td>
+                        <td><a href="https://drive.google.com/file/d/1fw_Up7E8sIq3z_5Sqd5PQ_qKR_hWACdc/view?usp=sharing" target="_blank"> Quiz solutions </a></td>
+                    </tr>
+                    <tr class="success">
+                        <td>8/30</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/10rs--_fh3IISVzWaDeUgLYIW500OXMJp/view?usp=sharing" target="_blank"> Point Estimation: MLE, MAP</a>
+                        </td>
+                        <td>TM, <a href="http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf" target="_blank">Estimating Probabilities</a> <br />KM, Ch. 2 (for a refresh in probability)</td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>9/4</td>
+                        <td>
+                            <a href="https://drive.google.com/file/d/1nPTrwGqatZ6ZVbGbE3Zue9FZ9TnKK2Ha/view?usp=sharing" target="_blank">Decision Theory, Linear Algebra Review</a>
+                        </td>
+                        <td><a href="http://gwthomas.github.io/docs/math4ml.pdf" target="_blank">Math4ML (review/refresher)</a></td>
+                        <td><a href="https://drive.google.com/drive/folders/1dm0XhF8RMW3H3dO984LYQuwSBeaNRzny?usp=sharing" target="_blank">HW 1</a> released</td>
+                    </tr>
+                    <tr class="success">
+                        <td>9/6</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1Uk8UtJKiwvCmPWHRtT0TQwjYLqRsRSew/view?usp=sharing" target="_blank">Linear Regression, Part I </a>
+                        </td>
+                        <td>KM, Ch. 7.1-7.3 <br/> <a href="http://www.deeplearningbook.org/contents/ml.html" target="_blank">Deep Learning Book, Ch. 5</a>*</td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>9/11
+                        </td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1CSauta057BvgJ6v7vHK1eaBeK73efXmv/view?usp=sharing" target="_blank"> Linear Regression, Part II </a>
+                        </td>
+                        <td>KM, Ch. 7.4-7.6 <br/> <a href="https://www.autonlab.org/tutorials/introreg.html" target="_blank">Intro to regression</a> </td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>9/13</td>
+                        <td><a href="https://drive.google.com/file/d/1yxkpYai3hSnfsOLPdNiZFVL3j6qLBZPr/view?usp=sharing" target="_blank"> Overfitting / Regularization </a>
+                        </td>
+                        <td><a href="https://www.deeplearningbook.org/contents/ml.html" target="_blank">Deep Learning, Ch. 5.2-5.4</a> <br/> KM, Ch. 6.4</td>
+                        <td>HW 1 due <br/> <a href="https://drive.google.com/drive/folders/1___2pTSzL3TvGGf62ZXSN2SNBdaPjacT?usp=sharing" target="_blank"> HW 2 </a>released</td>
+                    </tr>
+                    <tr class="active">
+                        <td>9/18</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/120SVnIRKDYDusSPigYffQjNE6J1Gg8wE/view?usp=sharing" target="_blank"> Naive Bayes</a>
+                        </td>
+                        <td>CIML, <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf" target="_blank">Ch. 9</a><br />KM, Ch. 3.5</td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>9/20</td>
+                        <td><a href="https://drive.google.com/file/d/1WteHULW5msgfzehmPc1dqNpPj1_EKMgo/view?usp=sharing" target="_blank"> Logistic Regression </a>
+                        </td>
+                        <td>KM, Ch. 8.1-8.4, 8.6<br /><a href="https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf" target="_blank">Discriminative vs. Generative</a></td>
+                        <td></td>
+                    <tr class="active">
+                        <td>9/25</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1g7zZ38Z6nYfhtyDgo6w5fGgfT_0LkxoA/view?usp=sharing" target="_blank"> Multiclass Classification </a>
+                        </td>
+                        <td>KM, Ch. 8.5</td>
+                        <td>HW 2 due</td>
+                    </tr>
+                    <tr class="success">
+                        <td>9/27</td>
+                        <td><a href="https://drive.google.com/file/d/1jUrPp2UAxtY4d2KtaEikDtXI5NChVTro/view?usp=sharing" target="_blank">SVM, Part I</a>
+                        </td>
+                        <td>ESL, Ch. 12 <br/> KM Ch. 28 <br/> <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch11.pdf" target="_blank"> Kernel Methods </a></td>
+                        <td><a href="https://drive.google.com/open?id=1QulofxB522DFyTEBY3pv97SnxHJhNYmV" target="_blank"> HW 3</a> released</td>
+                    </tr>
+                    <tr class="active">
+                        <td>10/2</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1aC6q1ftR5rcRv0HMsQJKO9AKRCngfavF/view?usp=sharing" target="_blank">SVM, Part II</a>
+                        </td>
+                        <td>KM Ch. 28<br/> <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch11.pdf" target="_blank"> Kernel Methods </a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>10/4</td>
+			    <td><a href="https://drive.google.com/file/d/1Qbj7DgboHbx3yheV24s3KTPj40nC5zXZ/view?usp=sharing" target="_blank">SVM, Part III</a>
+                        </td>
+                        <td><a href="https://www.cs.cmu.edu/~ninamf/courses/601sp15/sc-2015.pdf" target="_blank">Generalizability </a> <br/>
+                        <a href="https://blogs.princeton.edu/imabandit/2015/10/13/crash-course-on-learning-theory-part-1/" target="_blank"> Advanced Reading - Part     1 <br/>
+                        <a href="https://blogs.princeton.edu/imabandit/2015/10/22/crash-course-on-learning-theory-part-2/" target="_blank"> Advanced Reading - Part     2 <br/>
+                        </td>
+                        <td>HW 3 due</td>
+                    </tr>
+                    <tr class="active">
+                        <td>10/9</td>
+                        <td>
+                        <b>In-Class Midterm</b>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>10/11</td>
+                        <td><a href="https://drive.google.com/file/d/17k9_WnXmQiwE_yalP4w1lA_oLmM22dyf/view?usp=sharing" target="_blank">Nearest Neighbors</a>
+                        </td>
+                        <td>CIML, <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf" target="_blank">Ch. 3.1-3.2</a></td>
+                        <td><a href="https://drive.google.com/drive/folders/1uU__5SoZDYqnHKRVgyvpMzZcK4YQlFC3?usp=sharing" target="_blank">HW 4</a> released</td>
+                    </tr>
+                    <tr class="active">
+                        <td>10/16</td>
+                        <td>
+                        <a href="https://drive.google.com/open?id=1mRX9wWOJfyOJwY14wIITx8Poh3rhvSRC" target="_blank">Decision Trees</a>
+                        </td>
+                        <td>CIML, <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch01.pdf" target="_blank">Ch. 1.3</a><br />KM, Ch. 16.2<br />ESL, Ch. 9.2</td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>10/18</td>
+                        <td><a href="https://drive.google.com/file/d/1lH1RIxerkN_-4ZIDNRTulqDg6hM22P2j/view?usp=sharing">Boosting</a>
+                        </td>
+                        <td>KM, Ch. 16.4<br/></td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>10/23</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1tQzS9iE3o_CyR4OK7BxgPZgcYtrlwSBz/view?usp=sharing">Neural Networks, Part I</a>
+                        </td>
+                        <td><a href="https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf"> Learning Deep Architectures for AI </a><br/>
+                            <a href="https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf">ImageNet</a></td>
+                        <td>HW 4 due</td>
+                    </tr>
+                    <tr class="success">
+                        <td>10/25</td>
+                        <td><a href="https://drive.google.com/file/d/15VHl2If6--fnvtdKe4n33qF_f6pB6mzS/view?usp=sharing"> Neural Networks, Part II </a>
+                        </td>
+                        <td><a href="http://neuralnetworksanddeeplearning.com/chap3.html">Neural Networks and Deep Learning, Ch.3</a><br/>
+                            <a href="https://www.deeplearningbook.org/contents/regularization.html">Regularization for Deep Learning </a></td>
+                        <td><a href="https://drive.google.com/open?id=1aFlZ1JvawJzj8KUGBfHbqmzjdh4oGEa2" target="_blank">HW 5</a> released</td>
+                    </tr>
+                    <tr class="active">
+                        <td>10/30</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1dsya2a9MDIi0_veGsUNS1lz9adcja3yg/view?usp=sharing">Neural Networks, Part III</a>
+                        </td>
+                        <td><a href="http://www.cs.toronto.edu/~tingwuwang/rnn_tutorial.pdf">RNN</a><br/>
+                            <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">LSTM</a><br/></td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>11/1</td>
+                        <td><a href="https://drive.google.com/file/d/1kq3iqudjfDkmXqXk9Pa5lYKBdhPC-c8q/view?usp=sharing" target="_blank">Clustering, Part I</a>
+                        </td>
+                        <td>CIML, <a href="http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf" target="_blank">Ch. 15.1</a></td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>11/6</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1kxGrUx00iBrkBZWxTjx7jtRmm6o9QnKp/view?usp=sharing">Clustering, Part II</a>
+                        </td>
+                        <td>ESL, Ch. 14.3.1-14.3.9</td>
+                        <td>HW 5 due</td>
+                    </tr>
+                    <tr class="success">
+                        <td>11/8</td>
+                        <td><a href="https://drive.google.com/file/d/1qzXvcO-6bvfyoQXdnCEZuyxJbk01X-O8/view?usp=sharing">EM</a>
+                        </td>
+                        <td>KM, Ch. 11.1-11.5</td>
+                        <td><a href="https://drive.google.com/drive/u/1/folders/1HZgS_EzsoAunBLnlb_Te8ncNAA6zXR1g">HW 6</a> released</td>
+                    </tr>
+                    <tr class="active">
+                        <td>11/13</td>
+                        <td>
+				<a href="https://drive.google.com/file/d/1gnO33_JePelYYdPyNdvgTlQpzDhzGsoT/view?usp=sharing">Dimensionality Reduction</a>
+                        </td>
+                        <td><a href="http://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf">PCA</a> <br/>
+                            <a href="https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf">Independent Component Analysis</a>
+                        </td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>11/15</td>
+                        <td><a href="https://drive.google.com/file/d/1eReaH-C6_xIR99JruUWini0857uEWWep/view?usp=sharing">Online Learning</a>
+                        </td>
+                        <td><a href="https://www.nowpublishers.com/article/Details/MAL-018">Introduction to Online Learning</a>
+			</td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>11/20</td>
+                        <td>
+                        <del>Reinforcement Learning</del><br />
+                        Class canceled
+                        </td>
+                        <td>
+			    </td>
+                        <td>HW 6 due</td>
+                    </tr>
+                    <tr class="success">
+                        <td>11/22</td>
+                        <td>
+                        <b>No class (Thanksgiving)</b>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>11/27</td>
+                        <td>
+                        <a href="https://drive.google.com/file/d/1j5x17EwSwcQgXSPm1BXkUCn741d8gkoB/view?usp=sharing">Fairness and Accountability in Machine Learning</a><br />
+                        Guest Lecture: Anupam Datta
+                        </td>
+                        <td><a href="https://arxiv.org/abs/1802.03788">Influence-directed Explanations for Deep Convolutional Networks</a></td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>11/29</td>
+                        <td><a href="https://drive.google.com/file/d/1hn2V80FjgL3ZUFPgnkbHtpGDwjkjNBHN/view?usp=sharing">Reinforcement Learning</a><br />Recitation: <a href="https://drive.google.com/file/d/1c0GBO8ZiFx-t_9WfqMMG59wbSZSKk43K/view?usp=sharing">Large-scale Machine Learning</a>
+                        </td>
+                        <td><a href="https://arxiv.org/pdf/cs/9605103.pdf">Reinforcement Learning: A Survey</a><br/>
+                <a href="https://www.cs.ubc.ca/~murphyk/Bayes/pomdp.html">A Brief Introduction to Reinforcement Learning</a></td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>12/4</td>
+                        <td>ML Research Lightning Talks
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="success">
+                        <td>12/6</td>
+                        <td><a href="https://drive.google.com/file/d/1oCnRjjqrtTE9HZzcHPH43MWbidRN2i5Y/view?usp=sharing">Final Lecture</a> <br /><i>Practice Exam</i>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr class="active">
+                        <td>12/11</td>
+                        <td><b>Final Exam</b>
+                        </td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div>
+
+        <hr>
+    </div>
+    <!-- /container -->
+ 
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</body>
