@@ -1,385 +1,46 @@
-<head>
-    <meta charset="utf-8">
-<title> CMU 18461/18661 </title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
-
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="spring2020.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
-</head>
-
-<body>
-    <div class="container">
-     <div class="panel-footer clearfix">
-        <div class="pull-left">
-        
-            <h1>18-461/18-661: Intro to ML for Engineers</h1>
-            <p class="lead">Instructors:</p>
-            <p>
-                <a href="https://www.andrew.cmu.edu/user/gaurij/" target="_blank">Prof. Gauri Joshi</a>
-                <br />
-                <a href="https://users.ece.cmu.edu/~yuejiec/" target="_blank">Prof. Yuejie Chi</a>
-            </p>
-
-            <p class="lead">Lecture:</p>
-            <table cellspacing="10", style='font-size:100%'>
-
-
-
-                    <tr>
-                        <td>Pittsburgh:&nbsp;</td>
-                        <td>Tue. and Thu.&nbsp;</td>
-                        <td>11:50 AM - 1:10 PM ET&nbsp;</td>
-                        <td>BH 136A</td>
-                    </tr>
-
-
-  
-
-                <tr>
-                    <td>Silicon Valley:&nbsp;</td>
-                    <td>Tue. and Thu.&nbsp;</td>
-                    <td>8:50 AM - 10:10 AM PT&nbsp;</td>
-                    <td>B23 212</td>
-                </tr>
-
-                <tr>
-                    <td>Rwanda:&nbsp;</td>
-                    <td>Tue. and Thu.&nbsp;</td>
-                    <td>5:50 PM - 7:10 PM CAT&nbsp;</td>
-                    <td>Zoom</td>
-                                </tr>
-            </table>
-            </br>
-
-            <p class="lead">Recitation:</p>
-            <table cellspacing="10", style='font-size:100%'>
-
-                <tr>
-                    <td>Pittsburgh:&nbsp;</td>
-                    <td>Fri.&nbsp;</td>
-                    <td>11:50 AM - 1:10 PM ET&nbsp;</td>
-                    <td>BH 136A</td>
-                </tr>
-                <tr>
-                    <td>Silicon Valley:&nbsp;</td>
-                    <td>Fri.&nbsp;</td>
-                    <td>8:50 AM - 10:10 AM PT&nbsp;</td>
-                    <td>B23 118</td>
-                </tr>
-
-                <tr>
-                    <td>Rwanda:&nbsp;</td>
-                    <td>Fri.&nbsp;</td>
-                    <td>5:50 PM - 7:10 PM CAT&nbsp;</td>
-                    <td>Zoom</td>
-                </tr>
-                
-
-
-  
-            </table>
-            </br>
-
-        <p class="lead"> Office Hours: </p>                    
-
-            <table cellspacing="10", style='font-size:100%'>                                              
-                
-                <tr>
-                    <td>Prof. Gauri Joshi&nbsp;</td>
-                    <td>Tue.&nbsp; </td>
-                    <td>1:30 pm - 2:30 pm ET, Zoom</td>
-                </tr>
-
-                <tr>
-                    <td>Prof. Yuejie Chi&nbsp;</td>
-                    <td>Thu.&nbsp;</td>
-                    <td>10:30 am - 11:30 am ET, Zoom or in Person</td>
-                </tr>
-                <tr>
-                    <td>Rahul Anand Sharma&nbsp;</td>               
-                    <td>Fri,&nbsp;</td>
-                    <td>3:00 pm - 4:00 pm</td>
-                </tr>
-    
-                <tr>
-                    <td>Shimiao Li&nbsp;</td>                
-                    <td>Thu.&nbsp;</td>
-                    <td>5:00 pm - 6:00 pm</td>
-                </tr>
-    
-                <tr>
-                    <td>Sundar Anand	&nbsp;</td>              
-                    <td>Tue.&nbsp;</td>
-                    <td>4:00 pm - 5:00 pm</td>
-                </tr>
-    
-                <tr>
-                    <td>Tuhinangshu Choudhury&nbsp;</td>              
-                    <td>Wed.&nbsp;</td>
-                    <td>3:00 pm - 4:00 pm</td>
-                </tr>
-                <tr>
-                    <td>Diogo Cardoso&nbsp;</td>                
-                    <td>Mon.&nbsp;</td>
-                    <td>2:00 pm - 3:00 pm</td>
-                </tr>
-    
-                <tr>
-                    <td>Pedro Valdeira&nbsp;</td>               
-                    <td>Tue.&nbsp;</td>
-                    <td>5:00 pm - 6:00 pm</td>
-                </tr>
- 
-                            
-      
-
-            </table>
-
-        <br/>
-            See Piazza for the Office Hours Zoom link.
-        </p>
-            </div>
-        </div>
-
-        <div class="main">
-        <br>
-        <h3>Course Overview</h3>
-        <p class="p1">This course provides an introduction to machine learning with a special focus on engineering applications. The course starts with a mathematical background required for machine learning and covers approaches for supervised learning (linear models, kernel methods, decision trees, neural networks) and unsupervised learning (clustering, dimensionality reduction), as well as theoretical foundations of machine learning (learning theory, optimization). Evaluation will consist of mathematical problem sets and programming projects targeting real-world engineering applications.</p>
-
-        <h3>Prerequisites</h3>
-        <p>This course is intended for graduate students and qualified undergraduate students with a strong mathematical and programming background. Undergraduate level training or coursework in algorithms, linear
-        algebra, calculus, probability, and statistics is suggested. A background in programming will also be necessary for the problem sets; students are expected to be familiar with python or learn it during the course. At CMU, this course is most similar to MLD's 10-601 or 10-701, though this course is meant specifically for students in engineering.</p>
-    
-        <h3>Textbooks</h3>
-        There will be no required textbooks, though we suggest the
-        following to help you to study (all available online):
-        <ul>
-          <li>(KM): <a href="https://ebookcentral.proquest.com/lib/cm/detail.action?docID=3339490" target="_blank">Machine Learning: A Probabilistic Perspective</a>, Kevin Murphy. Online access is free through CMU’s library. Note that to access the library, you may need to be on CMU’s network or VPN.
-          <li>(ESL): <a href="http://statweb.stanford.edu/~tibs/ElemStatLearn/" target="_blank">Elements of Statistical Learning</a> Trevor Hastie, Robert
-          Tibshirani and Jerome Friedman. 
-          <li>(TM): <a href="http://www.cs.cmu.edu/afs/cs.cmu.edu/user/mitchell/ftp/mlbook.html" target="_blank">Machine Learning</a>, Tom Mitchell.</li>
-          <li>(CIML): <a href="http://ciml.info/" target="_blank">A Course in Machine Learning</a>, Hal Daumé III.</li>
-          <li>(MJ): <a href="http://people.eecs.berkeley.edu/~jordan/prelims/" target="_blank">An Introdution to Probabilistic Graphical Models</a>, Michael I. Jordan.</li>
-        </ul>
-        We will provide suggested readings from these books in the schedule 
-        below.
-
-        <h3>Piazza</h3>
-        <p> We will use Piazza for class discussions. Please go to the course Piazza site to join the course forum (note: you must use a cmu.edu email account to join the forum). We strongly encourage students to post on this forum rather than emailing the course staff directly (this will be more efficient for both students and staff). Students should use Piazza to: 
-        <ul>
-          <li>Ask clarifying questions about the course material.</li>
-          <li>Share useful resources with classmates (so long as they do not
-          contain homework solutions).</li>
-          <li>Look for students to form study groups.</li>
-          <li>Answer questions posted by other students to solidify your own
-          understanding of the material.</li>
-        </ul>
-        The course Academic Integrity Policy must be followed on the message boards at all times. <b>Do not post or request homework solutions!</b> Also, please be polite.
-
-        <h3>Staff Contact Info</h3>
-        <p class="lead">Instructors:</p>
-        <table cellspacing="10">
-            <tr>
-                <!--<td><img src="" width="125px" height="125px"></img>&nbsp;</td>-->
-                <td>Prof. Gauri Joshi&nbsp;</td>
-                <td>gaurij@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <!--<td><img src="" width="125px" height="125px"></img>&nbsp;</td>-->
-                <td>Prof. Yuejie Chi&nbsp;</td>
-                <td>yuejiechi@cmu.edu</td>
-            </tr>
-        </table>
-        <br/>
-        <p class="lead">TAs:</p>
-        <table cellspacing="10">
-            <tr>
-                <td>Rahul Anand Sharma&nbsp;</td>                <td>rahulans@andrew.cmu.edu</td>
-            </tr>
-
-            <tr>
-                <td>Shimiao Li&nbsp;</td>                <td>shimiaol@andrew.cmu.edu</td>
-            </tr>
-
-            <tr>
-                <td>Sundar Anand	&nbsp;</td>                <td>sundara@andrew.cmu.edu</td>
-            </tr>
-
-            <tr>
-                <td>Tuhinangshu Choudhury&nbsp;</td>                <td>tuhinanc@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Diogo Cardoso&nbsp;</td>                <td>dmendesc@andrew.cmu.edu</td>
-            </tr>
-
-            <tr>
-                <td>Pedro Valdeira&nbsp;</td>                <td>pmarreir@andrew.cmu.edu</td>
-            </tr>
-
-
-            <!-- <tr>
-                <td>Taejin Kim&nbsp;</td>
-                <td>tkim2@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Chaitanya Goswami&nbsp;</td>
-                <td>cgoswami@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Asish Gumparthi Venkat&nbsp;</td>
-                <td>agumpart@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Aditi Milind Damle&nbsp;</td>
-                <td>aditimid@andrew.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Wenjing Shangguan&nbsp;</td>
-                <td>wenjing.shangguan@sv.cmu.edu</td>
-            </tr>
-            <tr>
-                <td>Zhiyuan Zhao&nbsp;</td>
-                <td>zhiyuan2@andrew.cmu.edu</td>
-            </tr>
-
-            <tr>                
-                <td>Kizito Nyuytiymbiy&nbsp;</td>
-                <td>knyuytiy@alumni.cmu.edu</td>
-            </tr>
-            <tr>                
-                <td>Geoffrey Munyaneza&nbsp;</td>
-                <td>gmunyane@andrew.cmu.edu</td>
-            </tr>
-            <tr>                
-                <td>Dhruv Vashisht&nbsp;</td>
-                <td>dvashish@andrew.cmu.edu</td>
-            </tr> -->
-
-        </table>
-
-        <h3>Grading Policy</h3>
-        <p> Grades will be based on the following components: 
-        <ul>
-          <li> <b>Problem Sets (50%)</b>: There will be 7 problem sets. Each problem set will have equal weight. We will drop the problem set with your lowest score.
-          <ul>
-            <li><b>Late submissions will not be accepted</b>. 
-            <li><i>There is one exception to this rule</i>: You are given 3 “late days” (self-granted 24-hr extensions) which you can use to give yourself extra time without penalty. <b>At most one late day can be used per assignment.</b> This will be monitored automatically via Gradescope.</li>               
-            <li> Solutions will be graded on both correctness and clarity. If
-            you cannot solve a problem completely, you will get more partial
-            credit by identifying the gaps in your argument than by 
-            attempting to cover them up. 
-          </ul>
-          <li> <b>Midterm (20%), Final (30%)</b>: These exams will cover material
-          from the lectures and the problem sets.
-          <li> <b>Bonus</b>: On Piazza, the top student “endorsed answer” answerers can earn bonus points.</li>
-        </ul>
-
-        <p><b>Gradescope:</b> We will use Gradescope to collect PDF submissions of each problem set. Upon uploading your PDF, Gradescope will ask you to identify which page(s) contains your solution for each problem – this is a great way to double check that you haven’t left anything out. The course staff will manually grade your submission, and you’ll receive feedback explaining your final marks.<p/>
-
-        <b>Regrade Requests:</b> If you believe an error was made during grading, you’ll be able to submit a regrade request on Gradescope. <i>For each homework, regrade requests will be open for only 1 week after the grades have been published.</i> This is to encourage you to check the feedback you’ve received early!
-
-        <h3>Academic Integrity Policy</h3>
-        Group studying and collaborating on problem sets are encouraged, as
-        working together is a great way to understand new material.  Students
-        are free to discuss the homework problems with anyone under the
-        following conditions:
-        <ul>
-          <li>Students must write their own solutions and understand the
-          solutions that they wrote down.</li>
-          <li>Students must list the names of their collaborators (i.e., anyone
-          with whom the assignment was discussed).</li>
-          <li>Students may not use old solution sets from other classes under any circumstances, unless the instructor grants
-          special permission.</li>
-        </ul>
-        
-        Students are encouraged to read CMU's <a
-          href=https://www.cmu.edu/policies/
-          target="_blank"> Policy on Cheating and Plagiarism</a>.
-
-        <h3>Using LaTeX</h3>
-        <p> Students are strongly encouraged to use LaTeX for problem sets.  LaTeX makes it
-        simple to typeset mathematical equations, and is extremely useful for
-        graduate students to know. Most of the academic papers you read were
-        written with LaTeX, and probably most of the textbooks too. <a
-          href=http://www.ctan.org/tex-archive/info/lshort/english/lshort.pdf
-          target="_blank">Here</a> is an excellent LaTeX tutorial and <a
-          href=http://latex-project.org/ftp.html target="_blank">here</a> are
-        instructions for installing LaTeX on your machine.
-        </p>
-
-        <h3>Acknowledgments</h3>
-        <p> This course is based in part on material developed by <a href=http://www-bcf.usc.edu/~feisha/ target="_blank">Fei Sha</a>, <a href="https://www.cs.cmu.edu/~atalwalk/" target="_blank">Ameet Talwalkar</a>, <a href="http://www.cs.cmu.edu/~mgormley/">Matt Gormley</a>, and <a href="https://homes.cs.washington.edu/~ebfox/">Emily Fox</a>. We also thank Anit Sahu and Joao Saude for their help with course development.
-       
-       
-  
-
-
-        <hr>
-
-        <h3>Schedule (Subject to Change)</h3>
-    
-    
-<!--Start--> 
-
 <div class="bs-example">  <table class="table">                <thead>                    <tr>                        <th>Date</th><th>Topics</th>                         <th>Reading</th><th>HW</th></tr></thead><tbody><tr class="active"> <td>8/31</td> <td>Intro & Math Quiz[<a target="_blank" href="https://drive.google.com/file/d/1Qz318DtW4sm_ivxoz3ZsSZTZPGJ4rJcl/view?usp=sharing">Slides</a>]</td> <td>KM, Ch.1</td> <td></td></tr>
-    <tr class="active"> <td>9/2</td> <td>MLE/MAP, Linear Algera Review[<a target="_blank" href="https://drive.google.com/file/d/1t8gaNGsL3dPgP2HTMHjrrszxSlzT2Yap/view?usp=sharing">Slides</a>]</td> <td>TM, <a href="http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf" target="_blank">Estimating Probabilities</a>         <br />KM, Ch. 2 (for a refresh in probability)<br /><a href="http://gwthomas.github.io/docs/math4ml.pdf" target="_blank">Math4ML (review/refresher)</a><br/> <a href="https://web.stanford.edu/~boyd/vmls/" target="_blank">Vectors, Matrices, and Least Squares</a><br/> <a href="http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf" target="_blank">Matrix Cookbook</a></td> <td>HW1 released</td></tr>
-    <tr class="success"> <td>9/3</td> <td>Recitation[<a target="_blank" href="https://drive.google.com/file/d/1mkkTEMTfpQG7jGm-mF_iscFY5kxOlztT/view?usp=sharing">Slides</a>]</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/7</td> <td>Linear Regression, part I</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/9</td> <td>Linear Regression, part II</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>9/10</td> <td>Recitation</td> <td></td> <td>HW1 due, HW2 released</td></tr>
-    <tr class="active"> <td>9/14</td> <td>Overfitting, Bias/variance Trade-off, Evaluation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/16</td> <td>Naive Bayes</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>9/17</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/21</td> <td>Logistic Regression</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/23</td> <td>Multi-class Classification</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>9/24</td> <td>Recitation</td> <td></td> <td>HW2 due, HW3 released</td></tr>
-    <tr class="active"> <td>9/28</td> <td>SVM, part I</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>9/30</td> <td>SVM, part II</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>10/1</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/5</td> <td>Graphical Models 1</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/7</td> <td>Graphical Models 2</td> <td></td> <td>HW3 due, HW4 released</td></tr>
-    <tr class="success"> <td>10/8</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/12</td> <td>Nearest Neighbors</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/14</td> <td>Mid-semester break</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>10/15</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/19</td> <td>Midterm</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/21</td> <td>Decision Trees</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>10/22</td> <td>Recitation</td> <td></td> <td>HW4 due, HW5 released</td></tr>
-    <tr class="active"> <td>10/26</td> <td>Boosting, random forests</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>10/28</td> <td>Neural Networks, Part I</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>10/29</td> <td>Pytorch Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/2</td> <td>Neural Networks, Part II </td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/4</td> <td>Clustering, Part I</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/5</td> <td>No class - community engagement</td> <td></td> <td>HW5 due, HW6  released</td></tr>
-    <tr class="active"> <td>11/9</td> <td>Clustering, Part II</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/11</td> <td>Dimensionality Reduction</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>11/12</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/16</td> <td>Online Learning (Bandits)</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/18</td> <td>Reinforcement Learning, part I </td> <td></td> <td>HW6 due, HW7 released</td></tr>
-    <tr class="success"> <td>11/19</td> <td>Recitation</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/23</td> <td>Reinforcement Learning, part II </td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/25</td> <td>Thanksgiving Holiday</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/26</td> <td>No recitation this week</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>11/30</td> <td>Last Lecture: review</td> <td></td> <td></td></tr>
-    <tr class="active"> <td>12/2</td> <td>Final Exam</td> <td></td> <td></td></tr>
-    <tr class="success"> <td>12/3</td> <td>Recitation</td> <td></td> <td>HW7 due, </td></tr>
-    </tbody>            </table>        </div>                                
-
-
-<!--END--> 
+<tr class="active"> <td>9/2</td> <td>MLE/MAP, Linear Algera Review[<a target="_blank" href="https://drive.google.com/file/d/1t8gaNGsL3dPgP2HTMHjrrszxSlzT2Yap/view?usp=sharing">Slides</a>]</td> <td>TM, <a href="http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf" target="_blank">Estimating Probabilities</a>         <br />KM, Ch. 2 (for a refresh in probability)<br /><a href="http://gwthomas.github.io/docs/math4ml.pdf" target="_blank">Math4ML (review/refresher)</a><br/> <a href="https://web.stanford.edu/~boyd/vmls/" target="_blank">Vectors, Matrices, and Least Squares</a><br/> <a href="http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf" target="_blank">Matrix Cookbook</a></td> <td>HW1 released</td></tr>
+<tr class="success"> <td>9/3</td> <td>Recitation[<a target="_blank" href="https://drive.google.com/file/d/1mkkTEMTfpQG7jGm-mF_iscFY5kxOlztT/view?usp=sharing">Slides</a>]</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/7</td> <td>Linear Regression, part I</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/9</td> <td>Linear Regression, part II</td> <td></td> <td></td></tr>
+<tr class="success"> <td>9/10</td> <td>Recitation</td> <td></td> <td>HW1 due, HW2 released</td></tr>
+<tr class="active"> <td>9/14</td> <td>Overfitting, Bias/variance Trade-off, Evaluation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/16</td> <td>Naive Bayes</td> <td></td> <td></td></tr>
+<tr class="success"> <td>9/17</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/21</td> <td>Logistic Regression</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/23</td> <td>Multi-class Classification</td> <td></td> <td></td></tr>
+<tr class="success"> <td>9/24</td> <td>Recitation</td> <td></td> <td>HW2 due, HW3 released</td></tr>
+<tr class="active"> <td>9/28</td> <td>SVM, part I</td> <td></td> <td></td></tr>
+<tr class="active"> <td>9/30</td> <td>SVM, part II</td> <td></td> <td></td></tr>
+<tr class="success"> <td>10/1</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/5</td> <td>Graphical Models 1</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/7</td> <td>Graphical Models 2</td> <td></td> <td>HW3 due, HW4 released</td></tr>
+<tr class="success"> <td>10/8</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/12</td> <td>Nearest Neighbors</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/14</td> <td>Mid-semester break</td> <td></td> <td></td></tr>
+<tr class="success"> <td>10/15</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/19</td> <td>Midterm</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/21</td> <td>Decision Trees</td> <td></td> <td></td></tr>
+<tr class="success"> <td>10/22</td> <td>Recitation</td> <td></td> <td>HW4 due, HW5 released</td></tr>
+<tr class="active"> <td>10/26</td> <td>Boosting, random forests</td> <td></td> <td></td></tr>
+<tr class="active"> <td>10/28</td> <td>Neural Networks, Part I</td> <td></td> <td></td></tr>
+<tr class="success"> <td>10/29</td> <td>Pytorch Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/2</td> <td>Neural Networks, Part II </td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/4</td> <td>Clustering, Part I</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/5</td> <td>No class - community engagement</td> <td></td> <td>HW5 due, HW6  released</td></tr>
+<tr class="active"> <td>11/9</td> <td>Clustering, Part II</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/11</td> <td>Dimensionality Reduction</td> <td></td> <td></td></tr>
+<tr class="success"> <td>11/12</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/16</td> <td>Online Learning (Bandits)</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/18</td> <td>Reinforcement Learning, part I </td> <td></td> <td>HW6 due, HW7 released</td></tr>
+<tr class="success"> <td>11/19</td> <td>Recitation</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/23</td> <td>Reinforcement Learning, part II </td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/25</td> <td>Thanksgiving Holiday</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/26</td> <td>No recitation this week</td> <td></td> <td></td></tr>
+<tr class="active"> <td>11/30</td> <td>Last Lecture: review</td> <td></td> <td></td></tr>
+<tr class="active"> <td>12/2</td> <td>Final Exam</td> <td></td> <td></td></tr>
+<tr class="success"> <td>12/3</td> <td>Recitation</td> <td></td> <td>HW7 due, </td></tr>
+</tbody>            </table>        </div>     <!--END--> 
 
         </div>
 
