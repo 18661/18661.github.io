@@ -87,12 +87,19 @@
     <tr class="active">
     {% endif %}
         <td>{{item.date}}</td>
-        <td>{{item.topics if item.topics}}</td>
+        <td>
+        {{item.topics if item.topics}}
+        {% if item.resources %}
+        {% for resource in item.resources %}
+        <a href="{{resource.url}}" target="_blank">[{{resource.name}}]</a>
+        {% endfor %}
+        {% endif %}
+        </td>
         <td>
         {% if item.reading %}
         {% for text in item.reading %}
             {% if text is mapping %}
-            <a href={{text.url}} target="_blank">{{text.name}}</a><br>
+            <a href="{{text.url}}" target="_blank">{{text.name}}</a><br>
             {% else %}
             {{text}}<br>
             {% endif %}
