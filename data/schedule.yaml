@@ -1,0 +1,177 @@
+- date: 1/17
+  topics: Introduction
+  reading:
+  - KM, Ch. 1
+- date: 1/19
+  topics: Recitation
+  hw: <i>HW 1 Release</i>
+- date: 1/22
+  topics: MLE/MAP, Linear Algebra Review 
+  reading:
+  - name: TM, Estimating Probabilities
+    url: http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf
+  - KM, Ch. 2 (for a refresh in probability)
+  - name: Math4ML (review/refresher)
+    url: http://gwthomas.github.io/docs/math4ml.pdf
+  - name: Vectors, Matrices, and Least Squares
+    url: https://web.stanford.edu/~boyd/vmls/
+  - name: Matrix Cookbook
+    url: http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf
+- date: 1/24
+  topics: Linear Regression, Part I 
+  reading: 
+  - KM, Ch. 7.1-7.3
+  - name: Deep Learning Book, Ch. 5*
+    url: http://www.deeplearningbook.org/contents/ml.html
+- date: 1/26
+  topics: Recitation
+- date: 1/29
+  topics: Linear Regression, Part II
+  reading:
+  - KM, Ch. 7.4-7.6 
+  - name: Intro to regression
+    url: http://www.cs.cmu.edu/~./awm/tutorials/introreg05.pdf
+  hw: <i>HW 2 Release</i>
+- date: 1/31
+  topics: Overfitting, Bias/variance Trade-off
+  reading:
+  - name: Deep Learning, Ch. 5.2-5.4
+    url: https://www.deeplearningbook.org/contents/ml.html
+  - KM, Ch. 6.4
+  hw: <b>HW 1 due</b>
+- date: 2/2
+  topics: Recitation
+- date: 2/5
+  topics: Naive Bayes
+  reading:
+  - name: CIML, Ch. 9
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf
+  - KM, Ch. 3.5
+- date: 2/7
+  topics: Logistic Regression
+  reading:
+  - KM, Ch. 8.1-8.4, 8.6
+  - name: Discriminative vs. Generative
+    url: https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf
+- date: 2/9
+  topics: Recitation
+- date: 2/12
+  topics: SVM, Part 1
+  reading:
+  - ESL, Ch. 12
+  - KM Ch. 14.5
+  hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
+- date: 2/14
+  topics: SVM, Part 2
+  reading:
+  - name: Idiot's Guide to SVM
+    url: http://web.mit.edu/6.034/wwwbob/svm.pdf
+  - name: Duality Supplement
+    url: https://drive.google.com/file/d/1fWRqoZQ2yZ33jHCqh1mBDiYglS2OGvyI/view?usp=sharing
+- date: 2/16
+  topics: Recitation
+- date: 2/19
+  topics: Nearest Neighbors
+  reading:
+  - name: CIML, Ch. 3.1-3.2
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf
+- date: 2/21
+  topics: Decision Trees
+  reading:
+  - name: CIML, Ch. 1.3
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch01.pdf
+  - KM, Ch. 16.2
+  - ESL, Ch. 9.2
+- date: 2/23
+  topics: Recitation
+  hw: <b>HW 3 due</b>
+- date: 2/26
+  topics: Boosting, random forests
+  reading:
+  - ESL, Ch. 10.1, 10.4-10.6
+- date: 2/28
+  topics: <b>Midterm Exam (In-class)</b>
+- date: 3/1
+  topics: Recitation
+- date: 3/4
+  topics: Spring Break
+- date: 3/6
+  topics: Spring Break
+- date: 3/8
+  topics: Spring Break
+- date: 3/11
+  topics: Graphical Models I
+  hw: <i>HW 4 Release</i>
+- date: 3/13
+  topics: Graphical Models II
+- date: 3/15
+  topics: Recitation
+- date: 3/18
+  topics: Neural Networks, Part I
+  reading:
+  - name: Learning Deep Architectures for AI
+    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf
+  - name: ImageNet
+    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf
+- date: 3/20
+  topics: Neural Networks, Part II
+  reading:
+  - name: Neural Networks and Deep Learning, Ch.3
+    url: http://neuralnetworksanddeeplearning.com/chap3.html
+  - name: Regularization for Deep Learning 
+    url: https://www.deeplearningbook.org/contents/regularization.html
+- date: 3/22
+  topics: Recitation
+  hw: <i>HW 5 Release</i>
+- date: 3/25
+  topics: PyTorch
+  hw: <b>HW 4 due</b>
+- date: 3/27
+  topics: Neural Networks, Part III
+  reading:
+  - name: Neural Networks and Deep Learning, Ch.3
+    url: http://neuralnetworksanddeeplearning.com/chap3.html
+  - name: Regularization for Deep Learning 
+    url: https://www.deeplearningbook.org/contents/regularization.html
+- date: 3/29
+  topics: Recitation
+- date: 4/1
+  topics: Distributed Learning
+- date: 4/3
+  topics: Clustering, Part I
+  reading: 
+  - name: CIML, Ch. 15.1
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
+  hw: <i>HW 6 Release</i>
+- date: 4/5
+  topics: Recitation
+- date: 4/8
+  topics: Clustering, Part II
+  reading:
+  - ESL, Ch. 14.3.1-14.3.9
+  hw: <b>HW 5 due</b>
+- date: 4/10
+  topics: Dimensionality Reduction
+  reading:
+  - name: PCA
+    url: http://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf
+  - name: Independent Component Analysis
+    url: https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf
+- date: 4/12
+  topics: Carnival
+- date: 4/15
+  topics: Online Learning (Bandits)
+- date: 4/17
+  topics: Guest Lecture
+  hw: <b>HW 6 due</b><br><i>HW 7 Release</i>
+- date: 4/19
+  topics: Recitation
+- date: 4/22
+  topics: Reinforcement Learning, Part I
+- date: 4/24
+  topics: Reinforcement Learning, Part II
+- date: 4/26
+  topics: Recitation
+- date: 4/29
+  topics: <b>Final Exam Week</b>
+  hw: <b>HW 7 due</b>
