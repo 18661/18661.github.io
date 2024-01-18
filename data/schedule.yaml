@@ -5,6 +5,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1iENcjOdpDNNPtuf3Vs9o3hpa6qEHytti/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1lABPzLavyeeWAzqBMhkxUEaBR6UFsy0B/view?usp=sharing
 - date: 1/19
   topics: Recitation
   hw: <i>HW 1 Release</i>
