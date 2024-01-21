@@ -29,6 +29,9 @@
     url: https://web.stanford.edu/~boyd/vmls/
   - name: Matrix Cookbook
     url: http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1kVxnsdNPfYYdfdqElCS8etQT6-i5tAbQ/view?usp=sharing
 - date: 1/24
   topics: Linear Regression, Part I 
   reading: 
