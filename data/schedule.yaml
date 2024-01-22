@@ -5,9 +5,18 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1iENcjOdpDNNPtuf3Vs9o3hpa6qEHytti/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1lABPzLavyeeWAzqBMhkxUEaBR6UFsy0B/view?usp=sharing
 - date: 1/19
   topics: Recitation
   hw: <i>HW 1 Release</i>
+  resources:
+  - name: Annotated Slides
+    url: https://drive.google.com/file/d/1_An4Uoti-x4pzXT3wUm4B9gpoJiwFRxw/view?usp=sharing
+  - name: Python Slides
+    url: https://drive.google.com/file/d/1lNgbwG4CvYR_hTIkf353-Sw1PcCMjrQ2/view?usp=sharing
+  - name: Python Notebook
+    url: https://colab.research.google.com/drive/1dM81MRxklpA42xvXi7yxxnNgEVvQmE9N?authuser=1
 - date: 1/22
   topics: MLE/MAP, Linear Algebra Review 
   reading:
@@ -20,6 +29,9 @@
     url: https://web.stanford.edu/~boyd/vmls/
   - name: Matrix Cookbook
     url: http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1kVxnsdNPfYYdfdqElCS8etQT6-i5tAbQ/view?usp=sharing
 - date: 1/24
   topics: Linear Regression, Part I 
   reading: 
