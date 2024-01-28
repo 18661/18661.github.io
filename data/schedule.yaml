@@ -50,7 +50,7 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1H4yJiaaZStm-19mpABxDvSEhZdZUaDej/view?usp=sharing
-  - name: Annotated Slides
+  - name: Annotated
     url: https://drive.google.com/file/d/194HHGKs-OEHIBzrx3_AVVemoEPOWiGsd/view?usp=sharing
 - date: 1/29
   topics: Linear Regression, Part II
