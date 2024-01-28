@@ -54,7 +54,7 @@
   - name: Intro to regression
     url: http://www.cs.cmu.edu/~./awm/tutorials/introreg05.pdf
   resources:
-  - names: Slides
+  - name: Slides
     url: https://drive.google.com/file/d/1lSvhDVJlGZWiCc9iNxPbFG4oj--DJC1P/view?usp=sharing
   hw: <i>HW 2 Release</i>
 - date: 1/31
