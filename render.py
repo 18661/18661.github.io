@@ -2,7 +2,6 @@ from jinja2 import Template
 import os
 import csv
 import yaml
-import re
 
 
 with open("template.html") as f:
@@ -25,6 +24,4 @@ context = {
     for filename in os.listdir("data")
 }
 with open("index.html", 'w') as f:
-    rendered = template.render(**context)
-    clean = re.sub(r'\n\s*\n', '\n', rendered)
-    f.write(clean)
+    f.write(template.render(**context))
