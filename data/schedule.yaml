@@ -47,6 +47,11 @@
     url: https://drive.google.com/file/d/1g-7QQZWoD9y_pgLDGpeCeKYlFT0q0IYV/view?usp=sharing
 - date: 1/26
   topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1H4yJiaaZStm-19mpABxDvSEhZdZUaDej/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/194HHGKs-OEHIBzrx3_AVVemoEPOWiGsd/view?usp=sharing
 - date: 1/29
   topics: Linear Regression, Part II
   reading:
