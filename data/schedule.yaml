@@ -82,6 +82,9 @@
   - name: CIML, Ch. 9
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf
   - KM, Ch. 3.5
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1ZVV0cBl0Ru8v1ObJUlWZAIxtBC1kikJy/view?usp=drive_link
 - date: 2/7
   topics: Logistic Regression
   reading:
