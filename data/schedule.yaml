@@ -91,6 +91,9 @@
   - KM, Ch. 8.1-8.4, 8.6
   - name: Discriminative vs. Generative
     url: https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1i8dy4Sis_4uEbK_VqFUMcVt3c18y0-ET/view?usp=drive_link
 - date: 2/9
   topics: Recitation
 - date: 2/12
