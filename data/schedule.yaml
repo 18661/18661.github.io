@@ -85,6 +85,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1ZVV0cBl0Ru8v1ObJUlWZAIxtBC1kikJy/view?usp=drive_link
+  - name: Annotated
+    url: https://drive.google.com/file/d/19b2fAF3Vz0RYpva2KAXzejlt2izFmwjD/view?usp=sharing
 - date: 2/7
   topics: Logistic Regression
   reading:
@@ -94,6 +96,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1i8dy4Sis_4uEbK_VqFUMcVt3c18y0-ET/view?usp=drive_link
+  - name: Annotated
+    url: https://drive.google.com/file/d/19b2fAF3Vz0RYpva2KAXzejlt2izFmwjD/view?usp=sharing
 - date: 2/9
   topics: Recitation
 - date: 2/12
