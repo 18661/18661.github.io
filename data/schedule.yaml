@@ -105,6 +105,9 @@
   reading:
   - ESL, Ch. 12
   - KM Ch. 14.5
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1RhIGbd9A_cUAREKMYHQ4syRlidT5-7Kx/view?usp=sharing
   hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
 - date: 2/14
   topics: SVM, Part 2
