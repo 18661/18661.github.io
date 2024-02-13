@@ -108,6 +108,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1RhIGbd9A_cUAREKMYHQ4syRlidT5-7Kx/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1w12PkTzOvfpyPUYesiODMX0A_icXOY8A/view?usp=sharing
   hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
 - date: 2/14
   topics: SVM, Part 2
