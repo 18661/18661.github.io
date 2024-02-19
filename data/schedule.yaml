@@ -131,6 +131,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1nTVsjVaBip_-qOflpEqSV9HneI5JJCyO/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/12hKEnQbofi2V9YZs01AJkalLVc2u3p6u/view?usp=sharing
 - date: 2/21
   topics: Decision Trees
   reading:
