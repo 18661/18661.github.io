@@ -140,6 +140,9 @@
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch01.pdf
   - KM, Ch. 16.2
   - ESL, Ch. 9.2
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1nyUYxzq6U6PBq0BihV7chNRiFI-HTl2j/view?usp=sharing
 - date: 2/23
   topics: Recitation
   hw: <b>HW 3 due</b>
