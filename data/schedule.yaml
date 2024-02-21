@@ -145,6 +145,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1nyUYxzq6U6PBq0BihV7chNRiFI-HTl2j/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1PH54kNIqxfmOUDV4lYhEvZfMeVx74VLK/view?usp=sharing
 - date: 2/23
   topics: Recitation
   hw: <b>HW 3 due</b>
