@@ -171,6 +171,9 @@
   topics: Spring Break
 - date: 3/11
   topics: Graphical Models I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1mtOYVIxxx6FYRTI_FJk4x3ok1Dr4zIgB/view
   hw: <i>HW 4 Release</i>
 - date: 3/13
   topics: Graphical Models II
