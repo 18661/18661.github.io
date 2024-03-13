@@ -174,9 +174,14 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1mtOYVIxxx6FYRTI_FJk4x3ok1Dr4zIgB/view
+  - name: Annotated
+    url: https://drive.google.com/file/d/18HzpilxNn692aQyBNRI9JbMECGATH0_V/view?usp=sharing
   hw: <i>HW 4 Release</i>
 - date: 3/13
   topics: Graphical Models II
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1vpuk5gQ3xZfs1JKn4FySpkbevclhi9J7/view?usp=sharing
 - date: 3/15
   topics: Recitation
 - date: 3/18
