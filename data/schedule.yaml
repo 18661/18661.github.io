@@ -182,10 +182,15 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1vpuk5gQ3xZfs1JKn4FySpkbevclhi9J7/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1nef0gWNBRyukWRauF8O2IbN5bXodTXQB/view?usp=sharing
 - date: 3/15
   topics: Recitation
 - date: 3/18
   topics: Neural Networks, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1AtmRGefmZvfD2NNS2BTvS-jAicyW0FEH/view?usp=sharing
   reading:
   - name: Learning Deep Architectures for AI
     url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf
