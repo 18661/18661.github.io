@@ -191,13 +191,18 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1AtmRGefmZvfD2NNS2BTvS-jAicyW0FEH/view?usp=sharing
-  reading:
+  - name: Annotated
+    url: https://drive.google.com/file/d/1BZT2sLdKmQoHPtbSSoV68aKZPbamw5gS/view?usp=sharing
+  reading:  
   - name: Learning Deep Architectures for AI
     url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf
   - name: ImageNet
     url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf
 - date: 3/20
   topics: Neural Networks, Part II
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1F4glG0auu9VUJduBIvRfwi7lWZ_fOvY-/view?usp=sharing
   reading:
   - name: Neural Networks and Deep Learning, Ch.3
     url: http://neuralnetworksanddeeplearning.com/chap3.html
