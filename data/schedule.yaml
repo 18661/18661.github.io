@@ -213,6 +213,9 @@
   hw: <i>HW 5 Release</i>
 - date: 3/25
   topics: PyTorch
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1rhoTPwMgJqTQek6icnKZymeKBTxf-Ec0/view?usp=sharing
   hw: <b>HW 4 due</b>
 - date: 3/27
   topics: Neural Networks, Part III
