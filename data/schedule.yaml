@@ -203,6 +203,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1F4glG0auu9VUJduBIvRfwi7lWZ_fOvY-/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1uQxqd0Qrbyf1dMwFrigJEFuRdIssPGEU/view?usp=sharing
   reading:
   - name: Neural Networks and Deep Learning, Ch.3
     url: http://neuralnetworksanddeeplearning.com/chap3.html
@@ -233,6 +235,9 @@
   topics: Recitation
 - date: 4/1
   topics: Distributed Learning
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1FtCdqvh75JryNlM0EJXxGHrfUk4oE-Nk/view?usp=sharing
 - date: 4/3
   topics: Clustering, Part I
   reading: 
