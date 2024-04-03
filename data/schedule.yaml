@@ -242,6 +242,9 @@
     url: https://drive.google.com/file/d/1FtCdqvh75JryNlM0EJXxGHrfUk4oE-Nk/view?usp=sharing
 - date: 4/3
   topics: Clustering, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1Qq0jC7XJlEU1SwEkp2PrAeb2VqXmwSxN/view?usp=sharing
   reading: 
   - name: CIML, Ch. 15.1
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
