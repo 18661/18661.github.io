@@ -251,6 +251,9 @@
   hw: <i>HW 6 Release</i>
 - date: 4/5
   topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1keSrvrA46hq_fVqzCc90b8WjSPJr4z6U/view?usp=sharing
 - date: 4/8
   topics: Clustering, Part II
   reading:
