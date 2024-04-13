@@ -280,6 +280,9 @@
   topics: Carnival
 - date: 4/15
   topics: Online Learning (Bandits)
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1w1DLrVLr2pYtkxn1hvCr2gifnuDPuq5T/view?usp=sharing
 - date: 4/17
   topics: Guest Lecture
   hw: <b>HW 6 due</b><br><i>HW 7 Release</i>
