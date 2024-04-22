@@ -292,6 +292,12 @@
   topics: Recitation
 - date: 4/22
   topics: Reinforcement Learning, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1fE5LcDl6Rd7MvmqFrk2ynaAb9Ixiraji/view?usp=sharing
+  reading:
+  - name: RL Book
+    url: http://incompleteideas.net/book/RLbook2020.pdf
 - date: 4/24
   topics: Reinforcement Learning, Part II
 - date: 4/26
