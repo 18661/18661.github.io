@@ -300,6 +300,9 @@
     url: http://incompleteideas.net/book/RLbook2020.pdf
 - date: 4/24
   topics: Reinforcement Learning, Part II
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1fFkGEBGfi-5yy4xQMyPxviVc0aXrhR9A/view?usp=sharing
 - date: 4/26
   topics: Recitation
 - date: 4/30
