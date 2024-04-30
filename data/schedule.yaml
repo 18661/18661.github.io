@@ -240,11 +240,15 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1FtCdqvh75JryNlM0EJXxGHrfUk4oE-Nk/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1yVX7FGciiMZU-ja1SfyyHVPdI1qcNB3E/view?usp=drive_link
 - date: 4/3
   topics: Clustering, Part I
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1Qq0jC7XJlEU1SwEkp2PrAeb2VqXmwSxN/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/13FhwvgYhqz5xPkyxlT6gwh5Vet_rwgM3/view?usp=drive_link
   reading: 
   - name: CIML, Ch. 15.1
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
@@ -295,6 +299,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1fE5LcDl6Rd7MvmqFrk2ynaAb9Ixiraji/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/16voGlMPBbYQfMi_3htMETyo5HjOYXbLd/view?usp=drive_link
   reading:
   - name: RL Book
     url: http://incompleteideas.net/book/RLbook2020.pdf
@@ -303,6 +309,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1fFkGEBGfi-5yy4xQMyPxviVc0aXrhR9A/view?usp=sharing
+  - name: Annotated
+    url: https://drive.google.com/file/d/1hU4Hc_SS0jKSme4zs6qcTYbZWJZiSMIA/view?usp=drive_link
 - date: 4/26
   topics: Recitation
 - date: 4/30
