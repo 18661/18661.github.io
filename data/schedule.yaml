@@ -1,319 +1,56 @@
-- date: 1/17
+- date: 8/25
   topics: Introduction
   reading:
   - KM, Ch. 1
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1iENcjOdpDNNPtuf3Vs9o3hpa6qEHytti/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1lABPzLavyeeWAzqBMhkxUEaBR6UFsy0B/view?usp=sharing
-- date: 1/19
-  topics: Recitation
-  hw: <i>HW 1 Release</i>
-  resources:
-  - name: Annotated Slides
-    url: https://drive.google.com/file/d/1_An4Uoti-x4pzXT3wUm4B9gpoJiwFRxw/view?usp=sharing
-  - name: Python Slides
-    url: https://drive.google.com/file/d/1lNgbwG4CvYR_hTIkf353-Sw1PcCMjrQ2/view?usp=sharing
-  - name: Python Notebook
-    url: https://colab.research.google.com/drive/1dM81MRxklpA42xvXi7yxxnNgEVvQmE9N?authuser=1
-- date: 1/22
-  topics: MLE/MAP, Linear Algebra Review 
-  reading:
-  - name: TM, Estimating Probabilities
-    url: http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf
-  - KM, Ch. 2 (for a refresh in probability)
-  - name: Math4ML (review/refresher)
-    url: http://gwthomas.github.io/docs/math4ml.pdf
-  - name: Vectors, Matrices, and Least Squares
-    url: https://web.stanford.edu/~boyd/vmls/
-  - name: Matrix Cookbook
-    url: http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1kVxnsdNPfYYdfdqElCS8etQT6-i5tAbQ/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1asm-8EfSW7yR6YLDvwpwyPAQb318RMUP/view?usp=sharing
-- date: 1/24
-  topics: Linear Regression, Part I 
-  reading: 
-  - KM, Ch. 7.1-7.3
-  - name: Deep Learning Book, Ch. 5*
-    url: http://www.deeplearningbook.org/contents/ml.html
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1kihBFKLh-PlkLbwXrEDeZ3rfX705MjF-/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1g-7QQZWoD9y_pgLDGpeCeKYlFT0q0IYV/view?usp=sharing
-- date: 1/26
-  topics: Recitation
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1H4yJiaaZStm-19mpABxDvSEhZdZUaDej/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/194HHGKs-OEHIBzrx3_AVVemoEPOWiGsd/view?usp=sharing
-- date: 1/29
-  topics: Linear Regression, Part II
-  reading:
-  - KM, Ch. 7.4-7.6 
-  - name: Intro to regression
-    url: http://www.cs.cmu.edu/~./awm/tutorials/introreg05.pdf
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1lSvhDVJlGZWiCc9iNxPbFG4oj--DJC1P/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/11UHceljmBsyTdIycoChbVFUtiftxYHpi/view?usp=sharing
-  hw: <i>HW 2 Release</i>
-- date: 1/31
-  topics: Overfitting, Bias/variance Trade-off
-  reading:
-  - name: Deep Learning, Ch. 5.2-5.4
-    url: https://www.deeplearningbook.org/contents/ml.html
-  - KM, Ch. 6.4
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1WzoWmBmI3yJ20l0uAY8IqHbIY8v8I5F5/view?usp=sharing
-  hw: <b>HW 1 due</b>
-- date: 2/2
-  topics: Recitation
-- date: 2/5
-  topics: Naive Bayes
-  reading:
-  - name: CIML, Ch. 9
-    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf
-  - KM, Ch. 3.5
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1ZVV0cBl0Ru8v1ObJUlWZAIxtBC1kikJy/view?usp=drive_link
-  - name: Annotated
-    url: https://drive.google.com/file/d/19b2fAF3Vz0RYpva2KAXzejlt2izFmwjD/view?usp=sharing
-- date: 2/7
-  topics: Logistic Regression
-  reading:
-  - KM, Ch. 8.1-8.4, 8.6
-  - name: Discriminative vs. Generative
-    url: https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1i8dy4Sis_4uEbK_VqFUMcVt3c18y0-ET/view?usp=drive_link
-  - name: Annotated
-    url: https://drive.google.com/file/d/10tblKF26l4tf0cAzeHOhdtnsxKPOZQFt/view?usp=sharing
-- date: 2/9
-  topics: Recitation
-- date: 2/12
-  topics: SVM, Part 1
-  reading:
-  - ESL, Ch. 12
-  - KM Ch. 14.5
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1RhIGbd9A_cUAREKMYHQ4syRlidT5-7Kx/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1w12PkTzOvfpyPUYesiODMX0A_icXOY8A/view?usp=sharing
-  hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
-- date: 2/14
-  topics: SVM, Part 2
-  reading:
-  - name: Idiot's Guide to SVM
-    url: http://web.mit.edu/6.034/wwwbob/svm.pdf
-  - name: Duality Supplement
-    url: https://drive.google.com/file/d/1fWRqoZQ2yZ33jHCqh1mBDiYglS2OGvyI/view?usp=sharing
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1fvYoCEsoxMn1TSpsPN_vp7H38cA4_17K/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1fqIZMEaGnV-FAKAHqT05p68DDeyrO1ah/view?usp=sharing
-- date: 2/16
-  topics: Recitation
-- date: 2/19
-  topics: Nearest Neighbors
-  reading:
-  - name: CIML, Ch. 3.1-3.2
-    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1nTVsjVaBip_-qOflpEqSV9HneI5JJCyO/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/12hKEnQbofi2V9YZs01AJkalLVc2u3p6u/view?usp=sharing
-- date: 2/21
-  topics: Decision Trees
-  reading:
-  - name: CIML, Ch. 1.3
-    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch01.pdf
-  - KM, Ch. 16.2
-  - ESL, Ch. 9.2
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1nyUYxzq6U6PBq0BihV7chNRiFI-HTl2j/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1PH54kNIqxfmOUDV4lYhEvZfMeVx74VLK/view?usp=sharing
-- date: 2/23
-  topics: Recitation
-  hw: <b>HW 3 due</b>
-- date: 2/26
-  topics: Boosting, random forests
-  reading:
-  - ESL, Ch. 10.1, 10.4-10.6
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1qACpsn-C_VANNNyBQKetitdAhTKPJV0q/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1prQPjQjo7r8p-8rcgUpnLndKlnjJWo0B/view?usp=sharing
-- date: 2/28
-  topics: <b>Midterm Exam (In-class)</b>
-- date: 3/1
-  topics: Recitation
-- date: 3/4
-  topics: Spring Break
-- date: 3/6
-  topics: Spring Break
-- date: 3/8
-  topics: Spring Break
-- date: 3/11
-  topics: Graphical Models I
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1mtOYVIxxx6FYRTI_FJk4x3ok1Dr4zIgB/view
-  - name: Annotated
-    url: https://drive.google.com/file/d/18HzpilxNn692aQyBNRI9JbMECGATH0_V/view?usp=sharing
-  hw: <i>HW 4 Release</i>
-- date: 3/13
-  topics: Graphical Models II
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1vpuk5gQ3xZfs1JKn4FySpkbevclhi9J7/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1nef0gWNBRyukWRauF8O2IbN5bXodTXQB/view?usp=sharing
-- date: 3/15
-  topics: Recitation
-- date: 3/18
-  topics: Neural Networks, Part I
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1AtmRGefmZvfD2NNS2BTvS-jAicyW0FEH/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1BZT2sLdKmQoHPtbSSoV68aKZPbamw5gS/view?usp=sharing
-  reading:  
-  - name: Learning Deep Architectures for AI
-    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf
-  - name: ImageNet
-    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf
-- date: 3/20
-  topics: Neural Networks, Part II
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1F4glG0auu9VUJduBIvRfwi7lWZ_fOvY-/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1uQxqd0Qrbyf1dMwFrigJEFuRdIssPGEU/view?usp=sharing
-  reading:
-  - name: Neural Networks and Deep Learning, Ch.3
-    url: http://neuralnetworksanddeeplearning.com/chap3.html
-  - name: Regularization for Deep Learning 
-    url: https://www.deeplearningbook.org/contents/regularization.html
-- date: 3/22
-  topics: Recitation
-  hw: <i>HW 5 Release</i>
-- date: 3/25
-  topics: PyTorch
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1rhoTPwMgJqTQek6icnKZymeKBTxf-Ec0/view?usp=sharing
-  - name: Demo
-    url: https://github.com/18661/s24-pytorch-demo/blob/main/18_661_PyTorch_Lecture.ipynb
-  hw: <b>HW 4 due</b>
-- date: 3/27
-  topics: Neural Networks, Part III
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1sfZVvHs-s84lv7D1-tF6PBzSW3J2ZfFX/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1H11rQglapcp4k7JOwl2jYz59Fu80UC6B/view?usp=sharing
-  reading:
-  - name: Neural Networks and Deep Learning, Ch.3
-    url: http://neuralnetworksanddeeplearning.com/chap3.html
-  - name: Regularization for Deep Learning 
-    url: https://www.deeplearningbook.org/contents/regularization.html
-- date: 3/29
-  topics: Recitation
-- date: 4/1
-  topics: Distributed Learning
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1FtCdqvh75JryNlM0EJXxGHrfUk4oE-Nk/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1yVX7FGciiMZU-ja1SfyyHVPdI1qcNB3E/view?usp=drive_link
-- date: 4/3
-  topics: Clustering, Part I
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1Qq0jC7XJlEU1SwEkp2PrAeb2VqXmwSxN/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/13FhwvgYhqz5xPkyxlT6gwh5Vet_rwgM3/view?usp=drive_link
-  reading: 
-  - name: CIML, Ch. 15.1
-    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
-  hw: <i>HW 6 Release</i>
-- date: 4/5
-  topics: Recitation
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1keSrvrA46hq_fVqzCc90b8WjSPJr4z6U/view?usp=sharing
-- date: 4/8
-  topics: Clustering, Part II
-  reading:
-  - ESL, Ch. 14.3.1-14.3.9
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1tyhRLMY0pqSLn1WuaDrE4UxboeR0-Eoy/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1C5KnhZiHVRGIBKl0Qu_e2gYuQzdImBJr/view?usp=sharing
-  hw: <b>HW 5 due</b>
-- date: 4/10
-  topics: Dimensionality Reduction
-  reading:
-  - name: PCA
-    url: http://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf
-  - name: Independent Component Analysis
-    url: https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1v-0joARLmbwBQPsdfedFityAg-BWQ5Lf/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/13m1lEjLRvRgWHax7FNOYo9Omd80qL2gM/view?usp=sharing
-- date: 4/12
-  topics: Carnival
-- date: 4/15
-  topics: Online Learning (Bandits)
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1w1DLrVLr2pYtkxn1hvCr2gifnuDPuq5T/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1LYy6HS2ONV5wGzUxINGkgsGKjWQ0NK_l/view?usp=sharing
-- date: 4/17
-  topics: Guest Lecture
-  hw: <b>HW 6 due</b><br><i>HW 7 Release</i>
-- date: 4/19
-  topics: Recitation
-- date: 4/22
-  topics: Reinforcement Learning, Part I
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1fE5LcDl6Rd7MvmqFrk2ynaAb9Ixiraji/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/16voGlMPBbYQfMi_3htMETyo5HjOYXbLd/view?usp=drive_link
-  reading:
-  - name: RL Book
-    url: http://incompleteideas.net/book/RLbook2020.pdf
-- date: 4/24
-  topics: Reinforcement Learning, Part II
-  resources:
-  - name: Slides
-    url: https://drive.google.com/file/d/1fFkGEBGfi-5yy4xQMyPxviVc0aXrhR9A/view?usp=sharing
-  - name: Annotated
-    url: https://drive.google.com/file/d/1hU4Hc_SS0jKSme4zs6qcTYbZWJZiSMIA/view?usp=drive_link
-- date: 4/26
-  topics: Recitation
-- date: 4/30
+- date: 8/27
+- date: 8/29
+- date: 9/1
+  topics: <b>Labor Day - No Class</b>
+- date: 9/3
+- date: 9/5
+- date: 9/8
+- date: 9/10
+- date: 9/12
+- date: 9/15
+- date: 9/17
+- date: 9/19
+- date: 9/22
+- date: 9/24
+- date: 9/26
+- date: 9/29
+- date: 10/1
+- date: 10/3
+- date: 10/6
+- date: 10/8
+- date: 10/10
+- date: 10/13
+  topics: <b>Fall Break - No Class</b>
+- date: 10/15
+  topics: <b>Fall Break - No Class</b>
+- date: 10/17
+  topics: <b>Fall Break - No Class</b>
+- date: 10/20
+- date: 10/22
+- date: 10/24
+- date: 10/27
+- date: 10/29
+- date: 10/31
+- date: 11/3
+- date: 11/5
+- date: 11/7
+- date: 11/10
+- date: 11/12
+- date: 11/14
+- date: 11/17
+- date: 11/19
+- date: 11/21
+- date: 11/24
+- date: 11/26
+  topics: <b>Thanksgiving Break - No Class</b>
+- date: 11/28
+  topics: <b>Thanksgiving Break - No Class</b>
+- date: 12/1
+- date: 12/3
+- date: 12/5
+- date: 12/8
   topics: <b>Final Exam Week</b>
-- date: 5/1
-  hw: <b>HW 7 due</b>

@@ -63,7 +63,15 @@
 <h3> Office Hours</h3>
 <table cellspacing="10">
     {%- for session in office_hours %}
-    <tr><td>{{session.name}}</td><td>{{session.day}}</td><td>{{session.time}}</td><td>{{session.tz}}</td></tr>
+    <tr><td>{{session.name}}</td><td>{{session.day}}</td><td>{{session.time}} {{session.tz}}</td><td>{{session.location}}</td><td>
+            {%- if session.zoom == "NA" %}
+                NA
+            {%- elif session.zoom == "TBD" %}
+                TBD
+            {%- else %}
+                <a href="{{ session.zoom }}">[Zoom]</a>
+            {%- endif %}
+        </td></tr>
     {%- endfor %}
 </table>
 
@@ -86,7 +94,7 @@
 {%- for item in schedule %}
     {%- if item.topics == "Recitation" %}
     <tr class="success">
-    {%- elif item.topics == "Carnival" or item.topics == "Spring Break" %}
+    {%- elif item.topics == "<b>Labor Day - No Class</b>" or item.topics == "<b>Fall Break - No Class</b>" or item.topics == "<b>Thanksgiving Break - No Class</b>" %}
     <tr class="disabled">
     {%- else %}
     <tr class="active">
