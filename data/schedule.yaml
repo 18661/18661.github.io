@@ -6,7 +6,22 @@
   - name: Slides
     url: https://drive.google.com/file/d/1QYxgwBwOvw0pHpFKJKVuapyBEwSRcVF1/view?usp=drive_link
 - date: 8/27
+  topics: MLE/MAP, Linear Algebra Review 
+  reading:
+  - name: TM, Estimating Probabilities
+    url: http://www.cs.cmu.edu/~tom/mlbook/Joint_MLE_MAP.pdf
+  - KM, Ch. 2 (for a refresh in probability)
+  - name: Math4ML (review/refresher)
+    url: http://gwthomas.github.io/docs/math4ml.pdf
+  - name: Vectors, Matrices, and Least Squares
+    url: https://web.stanford.edu/~boyd/vmls/
+  - name: Matrix Cookbook
+    url: http://www.math.uwaterloo.ca/~hwolkowi//matrixcookbook.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/14K_4sreCB7XJc1HkMu3aV-AfQYFacjxJ/view?usp=sharing
 - date: 8/29
+  topics: Recitation
 - date: 9/1
   topics: <b>Labor Day - No Class</b>
 - date: 9/3
