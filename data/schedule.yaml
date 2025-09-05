@@ -29,7 +29,19 @@
 - date: 9/1
   topics: <b>Labor Day - No Class</b>
 - date: 9/3
+  topics: Linear Regression, Part I 
+  reading: 
+  - KM, Ch. 7.1-7.3
+  - name: Deep Learning Book, Ch. 5*
+    url: http://www.deeplearningbook.org/contents/ml.html
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1ceSoVU0VS6r7492v7foKtI_OT51I5wTr/view?usp=sharing
 - date: 9/5
+  topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1jJtM129-pC_z8JvUOytcEjnZGQGqTebg/view?usp=sharing
 - date: 9/8
 - date: 9/10
 - date: 9/12
