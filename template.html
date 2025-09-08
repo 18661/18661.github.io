@@ -92,7 +92,7 @@
 </thead>
 <tbody>
 {%- for item in schedule %}
-    {%- if item.topics == "Recitation" %}
+    {%- if "Recitation" in item.topics %}
     <tr class="success">
     {%- elif item.topics == "<b>Labor Day - No Class</b>" or item.topics == "<b>Fall Break - No Class</b>" or item.topics == "<b>Thanksgiving Break - No Class</b>" %}
     <tr class="disabled">

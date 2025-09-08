@@ -43,20 +43,66 @@
   - name: Slides
     url: https://drive.google.com/file/d/1jJtM129-pC_z8JvUOytcEjnZGQGqTebg/view?usp=sharing
 - date: 9/8
+  topics: Linear Regression, Part II
+  reading:
+  - KM, Ch. 7.4-7.6 
+  - name: Intro to regression
+    url: http://www.cs.cmu.edu/~./awm/tutorials/introreg05.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1u5_Bhe7w0aPxhmjXb9OQp9YoDtT6Djrp/view?usp=sharing
+  hw: <b>HW 1 due</b><br><i>HW 2 Release</i>
 - date: 9/10
+  topics: Overfitting, Bias/variance Trade-off
+  reading:
+  - name: Deep Learning, Ch. 5.2-5.4
+    url: https://www.deeplearningbook.org/contents/ml.html
 - date: 9/12
+  topics: Recitation
 - date: 9/15
+  topics: Naive Bayes
+  reading:
+  - name: CIML, Ch. 9
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch09.pdf
+  - KM, Ch. 3.5
 - date: 9/17
+  topics: Logistic Regression
+  reading:
+  - KM, Ch. 8.1-8.4, 8.6
+  - name: Discriminative vs. Generative
+    url: https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf
 - date: 9/19
+  topics: Recitation
 - date: 9/22
+  topics: Multi-class Classification
+  hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
 - date: 9/24
+  topics: Guest Lecture
 - date: 9/26
+  topics: Recitation
 - date: 9/29
+  topics: SVM, Part 1
+  reading:
+  - ESL, Ch. 12
+  - KM Ch. 14.5
 - date: 10/1
+  topics: SVM, Part 2
+  reading:
+  - name: Idiot's Guide to SVM
+    url: http://web.mit.edu/6.034/wwwbob/svm.pdf
+  - name: Duality Supplement
+    url: https://drive.google.com/file/d/1fWRqoZQ2yZ33jHCqh1mBDiYglS2OGvyI/view?usp=sharing
 - date: 10/3
+  topics: Recitation - Midterm Review
 - date: 10/6
+  topics: Nearest Neighbors
+  reading:
+  - name: CIML, Ch. 3.1-3.2
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf
 - date: 10/8
+  topics: <b>Midterm Exam (In-class)</b>
 - date: 10/10
+  topics: <b>Recitation Canceled</b>
 - date: 10/13
   topics: <b>Fall Break - No Class</b>
 - date: 10/15
