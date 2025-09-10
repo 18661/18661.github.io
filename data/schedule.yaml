@@ -57,6 +57,9 @@
   reading:
   - name: Deep Learning, Ch. 5.2-5.4
     url: https://www.deeplearningbook.org/contents/ml.html
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1g6F0XC7fYN6LAoWqUvdjIDXAMJVW3FRv/view?usp=sharing
 - date: 9/12
   topics: Recitation
 - date: 9/15
