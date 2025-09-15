@@ -62,6 +62,9 @@
     url: https://drive.google.com/file/d/1g6F0XC7fYN6LAoWqUvdjIDXAMJVW3FRv/view?usp=sharing
 - date: 9/12
   topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1hFOX6Se18L6kEmOtJasox43WQ8M-hut4/view?usp=sharing
 - date: 9/15
   topics: Naive Bayes
   reading:
