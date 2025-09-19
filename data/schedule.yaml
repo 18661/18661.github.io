@@ -84,16 +84,17 @@
   - name: Slides
     url: https://drive.google.com/file/d/1xxWcosIuwirfu79kIwNlHKL1voryzHe6/view?usp=sharing
 - date: 9/19
-  topics: Recitation
+  topics: <b>Recitation Canceled</b>
 - date: 9/22
   topics: Logistic Regression
   reading:
   - KM, Ch. 8.1-8.4, 8.6
   - name: Discriminative vs. Generative
     url: https://ai.stanford.edu/~ang/papers/nips01-discriminativegenerative.pdf
-  hw: <b>HW 2 due</b><br><i>HW 3 Release</i>
+  hw: <i>HW 3 Release</i>
 - date: 9/24
   topics: Multi-class Classification
+  hw: <b>HW 2 due</b>
 - date: 9/26
   topics: Recitation
 - date: 9/29
