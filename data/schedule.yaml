@@ -97,6 +97,9 @@
   hw: <i>HW 3 Release</i>
 - date: 9/24
   topics: Multi-class Classification
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1I7kcISFN00SzII6M6PYTKTsLcHzoVVnr/view?usp=sharing
   hw: <b>HW 2 due</b>
 - date: 9/26
   topics: Recitation
