@@ -103,6 +103,9 @@
   hw: <b>HW 2 due</b>
 - date: 9/26
   topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1CMKbrsTnKLcgW2ObsoK0LxEuSCJy_Cpz/view?usp=sharing
 - date: 9/29
   topics: SVM, Part 1
   reading:
