@@ -121,6 +121,9 @@
     url: http://web.mit.edu/6.034/wwwbob/svm.pdf
   - name: Duality Supplement
     url: https://drive.google.com/file/d/1fWRqoZQ2yZ33jHCqh1mBDiYglS2OGvyI/view?usp=sharing
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1J47IOKw63UESKEEb_7ONPOhSnZdR7doG/view?usp=sharing
 - date: 10/3
   topics: Recitation - Midterm Review
 - date: 10/6
