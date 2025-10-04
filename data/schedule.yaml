@@ -106,6 +106,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1CMKbrsTnKLcgW2ObsoK0LxEuSCJy_Cpz/view?usp=sharing
+  - name: Slides with Answers
+    url: https://drive.google.com/file/d/1k_w8xiM_JpxBFTDJMjJATEr0oQ_VvikI/view?usp=sharing
 - date: 9/29
   topics: SVM, Part 1
   reading:
@@ -126,6 +128,9 @@
     url: https://drive.google.com/file/d/1J47IOKw63UESKEEb_7ONPOhSnZdR7doG/view?usp=sharing
 - date: 10/3
   topics: Recitation - Midterm Review
+  resources:
+  - name: Midterm 2024 Answers
+    url: https://drive.google.com/file/d/1oi8EXcpv-lRuH_lTaEXl-XAnzQ5A8iTa/view?usp=sharing
 - date: 10/6
   topics: Nearest Neighbors
   reading:
