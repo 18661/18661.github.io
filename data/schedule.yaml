@@ -136,6 +136,9 @@
   reading:
   - name: CIML, Ch. 3.1-3.2
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch03.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1vcqH2IvB1VcGaXN3D6OZ8UMlzA2bsEb6/view?usp=sharing
 - date: 10/8
   topics: <b>Midterm Exam (In-class)</b>
 - date: 10/10
