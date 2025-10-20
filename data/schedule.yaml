@@ -150,6 +150,15 @@
 - date: 10/17
   topics: <b>Fall Break - No Class</b>
 - date: 10/20
+  topics: Decision Trees
+  reading:
+  - name: CIML, Ch. 1.3
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch01.pdf
+  - KM, Ch. 16.2
+  - ESL, Ch. 9.2
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1iBy3iaOPRIiAUcv2NeYsOeu92GDuMyUs/view?usp=sharing
 - date: 10/22
 - date: 10/24
 - date: 10/27
