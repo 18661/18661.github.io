@@ -139,6 +139,7 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1vcqH2IvB1VcGaXN3D6OZ8UMlzA2bsEb6/view?usp=sharing
+  hw: <b>HW 3 due</b><br><i>HW 4 Release</i>
 - date: 10/8
   topics: <b>Midterm Exam (In-class)</b>
 - date: 10/10
@@ -160,6 +161,7 @@
   - name: Slides
     url: https://drive.google.com/file/d/1iBy3iaOPRIiAUcv2NeYsOeu92GDuMyUs/view?usp=sharing
 - date: 10/22
+  hw: <b>HW 4 due</b>
 - date: 10/24
 - date: 10/27
 - date: 10/29
