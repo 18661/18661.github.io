@@ -160,7 +160,14 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1iBy3iaOPRIiAUcv2NeYsOeu92GDuMyUs/view?usp=sharing
+  hw: <i>HW 5 Release</i>
 - date: 10/22
+  topics: Ensemble Methods
+  reading:
+  - ESL, Ch. 10.1, 10.4-10.6
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/13vht-NFrxMPd7ikTjJQbSeLY4WJcjRGj/view?usp=sharing
   hw: <b>HW 4 due</b>
 - date: 10/24
 - date: 10/27
