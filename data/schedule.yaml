@@ -175,6 +175,15 @@
   - name: Problems
     url: https://drive.google.com/file/d/1w9aBV2NscGc3QJZz_L4aREDa-WhKaJBx/view?usp=sharing
 - date: 10/27
+  topics: Neural Networks, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1YQmU28TBwr6Sy_2L7X3wR4tEO93AulF_/view?usp=sharing
+  reading:  
+  - name: Learning Deep Architectures for AI
+    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/ftml.pdf
+  - name: ImageNet
+    url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf
 - date: 10/29
 - date: 10/31
 - date: 11/3
