@@ -185,6 +185,15 @@
   - name: ImageNet
     url: https://www.cs.cmu.edu/~epxing/Class/10715/reading/imagenet.pdf
 - date: 10/29
+  topics: Neural Networks, Part II
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1232ohVvcvNZ42oR3cvCPTLJVQdHuTUz_/view?usp=sharing
+  reading:
+  - name: Neural Networks and Deep Learning, Ch.3
+    url: http://neuralnetworksanddeeplearning.com/chap3.html
+  - name: Regularization for Deep Learning 
+    url: https://www.deeplearningbook.org/contents/regularization.html
 - date: 10/31
 - date: 11/3
 - date: 11/5
