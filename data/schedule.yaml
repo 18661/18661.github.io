@@ -206,7 +206,16 @@
     url: http://neuralnetworksanddeeplearning.com/chap3.html
   - name: Regularization for Deep Learning 
     url: https://www.deeplearningbook.org/contents/regularization.html
+  hw: <i>HW 6 Release</i>
 - date: 11/5
+  topics: Clustering, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1TR2mjW_DDrjdWPxWm8PypqhkEPQ6PAw1/view?usp=sharing
+  reading: 
+  - name: CIML, Ch. 15.1
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
+  hw: <b>HW 5 due</b>
 - date: 11/7
 - date: 11/10
 - date: 11/12
