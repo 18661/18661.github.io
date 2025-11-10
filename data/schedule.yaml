@@ -222,6 +222,13 @@
 - date: 11/7
   topics: <b>Recitation Canceled</b>
 - date: 11/10
+  topics: Clustering, Part I (cont.)
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1TR2mjW_DDrjdWPxWm8PypqhkEPQ6PAw1/view?usp=sharing
+  reading: 
+  - name: CIML, Ch. 15.1
+    url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
 - date: 11/12
 - date: 11/14
 - date: 11/17
