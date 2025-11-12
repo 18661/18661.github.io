@@ -230,6 +230,12 @@
   - name: CIML, Ch. 15.1
     url: http://ciml.info/dl/v0_99/ciml-v0_99-ch15.pdf
 - date: 11/12
+  topics: Clustering, Part II
+  reading:
+  - ESL, Ch. 14.3.1-14.3.9
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1BQ3yL8m-22gHAKaQxgdVS84om_QOq8Cu/view?usp=sharing
 - date: 11/14
 - date: 11/17
 - date: 11/19
