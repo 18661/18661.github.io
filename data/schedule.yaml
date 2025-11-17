@@ -242,6 +242,15 @@
   - name: Slides
     url: https://drive.google.com/file/d/1usFDt47BmpMXgmnBR8-GcMFZXKHuGrPk/view?usp=sharing
 - date: 11/17
+  topics: Dimensionality Reduction
+  reading:
+  - name: PCA
+    url: http://www.cs.princeton.edu/picasso/mats/PCA-Tutorial-Intuition_jp.pdf
+  - name: Independent Component Analysis
+    url: https://www.cs.helsinki.fi/u/ahyvarin/papers/NN00new.pdf
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1-CrUzCRHUhzn9gTj20-bCCjMeMVYmYcq/view?usp=sharing
 - date: 11/19
 - date: 11/21
 - date: 11/24
