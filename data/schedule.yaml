@@ -251,7 +251,13 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1-CrUzCRHUhzn9gTj20-bCCjMeMVYmYcq/view?usp=sharing
+  hw: <i>HW 7 Release</i>
 - date: 11/19
+  topics: Online Learning (Bandits)
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1HG3QVMAZ1MxDyuuCYF1Ohx1hm6Ju_Jjw/view?usp=sharing
+  hw: <b>HW 6 due</b>
 - date: 11/21
 - date: 11/24
 - date: 11/26
