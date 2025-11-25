@@ -266,6 +266,13 @@
   - name: TS Notebook
     url: https://colab.research.google.com/drive/1Hx7E5m8dmp6NRZbABaeOaPPGKKil_zSz?usp=sharing
 - date: 11/24
+  topics: Reinforcement Learning, Part I
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1xp2ZDmRXYvPNI3IBQMaBz8z7JsnSMSB_/view?usp=sharing
+  reading:
+  - name: RL Book
+    url: http://incompleteideas.net/book/RLbook2020.pdf
 - date: 11/26
   topics: <b>Thanksgiving Break - No Class</b>
 - date: 11/28
