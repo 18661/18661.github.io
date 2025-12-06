@@ -172,8 +172,10 @@
 - date: 10/24
   topics: Recitation
   resources:
-  - name: Problems
+  - name: Slides
     url: https://drive.google.com/file/d/1w9aBV2NscGc3QJZz_L4aREDa-WhKaJBx/view?usp=sharing
+  - name: Slides with Answers
+    url: https://drive.google.com/file/d/1CAIJNZoocyYSELhxSGpf4OXWCxbIoC7z/view?usp=sharing
 - date: 10/27
   topics: Neural Networks, Part I
   resources:
@@ -241,6 +243,8 @@
   resources:
   - name: Slides
     url: https://drive.google.com/file/d/1usFDt47BmpMXgmnBR8-GcMFZXKHuGrPk/view?usp=sharing
+  - name: Slides with Answers
+    url: https://drive.google.com/file/d/1o9iIhRvluLbtSPx6sQ2F6XPAAGocNvQ-/view?usp=sharing
 - date: 11/17
   topics: Dimensionality Reduction
   reading:
@@ -283,6 +287,11 @@
   - name: Slides
     url: https://drive.google.com/file/d/14C5rn5c7a8QQHM6LR3UAL_h5PjrsVAfO/view?usp=sharing
 - date: 12/3
+  topics: <b>No Class</b>
 - date: 12/5
-- date: 12/8
+  topics: Recitation
+  resources:
+  - name: Slides
+    url: https://drive.google.com/file/d/1b0VMXWMJ-Uwl5i7vcWcFpkARR_6zejXP/view?usp=sharing
+- date: 12/8 - 12/12
   topics: <b>Final Exam Week</b>
