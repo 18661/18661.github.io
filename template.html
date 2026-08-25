@@ -42,7 +42,7 @@
 <h4>TAs</h4>
 <table cellspacing="10">
     {%- for ta in tas %}
-    <tr><td>{{ta.name}}</td><td>{{ta.email}}</td>{%- if ta.email == "tpwu@andrew.cmu.edu" %}<td>Head TA</td>{%- endif %}</tr>
+    <tr><td>{{ta.name}}</td><td>{{ta.email}}</td>{%- if ta.email == "zhaoyiz@andrew.cmu.edu" %}<td>Head TA</td>{%- endif %}</tr>
     {%- endfor %}
 </table>
 
@@ -60,6 +60,7 @@
     {%- endfor %}                
 </table>
 
+{# --- Office Hours section commented out: schedule not decided yet --- 
 <h3> Office Hours</h3>
 <table cellspacing="10">
     {%- for session in office_hours %}
@@ -76,6 +77,7 @@
 </table>
 
 <p>See Piazza for the Office Hours Zoom links and locations.</p>
+--- end commented-out Office Hours section --- #}
 </div>
 
 <div class="main">
@@ -84,6 +86,7 @@
 
 <hr>
 
+{# --- Schedule section commented out: 2026 dates not set (holidays need adjustment) ---
 <h3>Schedule (Subject to Change)</h3>
 <div class="bs-example">
 <table class="table">
@@ -125,6 +128,7 @@
 </table>
 </div>
 <hr>
+--- end commented-out Schedule section --- #}
 </div>
 
 </div>
