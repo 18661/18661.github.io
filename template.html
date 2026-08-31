@@ -60,8 +60,7 @@
     {%- endfor %}                
 </table>
 
-{# --- Office Hours section commented out: schedule not decided yet --- 
-<h3> Office Hours</h3>
+<h3> Office Hours (Subject to Change)</h3>
 <table cellspacing="10">
     {%- for session in office_hours %}
     <tr><td>{{session.name}}</td><td>{{session.day}}</td><td>{{session.time}} {{session.tz}}</td><td>{{session.location}}</td><td>
@@ -69,6 +68,10 @@
                 NA
             {%- elif session.zoom == "TBD" %}
                 TBD
+            {%- elif "scheduler.zoom.us" in session.zoom %}
+                <a href="{{ session.zoom }}">[Booking]</a>
+            {%- elif "meet.google.com" in session.zoom %}
+                <a href="{{ session.zoom }}">[Google Meet]</a>
             {%- else %}
                 <a href="{{ session.zoom }}">[Zoom]</a>
             {%- endif %}
@@ -76,8 +79,9 @@
     {%- endfor %}
 </table>
 
-<p>See Piazza for the Office Hours Zoom links and locations.</p>
---- end commented-out Office Hours section --- #}
+<p>* John Dalton Gibson's office hours must be booked in advance through his booking link.</p>
+
+<p>Changes to the office hours schedule will be posted on Piazza.</p>
 </div>
 
 <div class="main">
