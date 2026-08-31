@@ -68,8 +68,6 @@
                 NA
             {%- elif session.zoom == "TBD" %}
                 TBD
-            {%- elif "scheduler.zoom.us" in session.zoom %}
-                <a href="{{ session.zoom }}">[Booking]</a>
             {%- elif "meet.google.com" in session.zoom %}
                 <a href="{{ session.zoom }}">[Google Meet]</a>
             {%- else %}
@@ -78,8 +76,6 @@
         </td></tr>
     {%- endfor %}
 </table>
-
-<p>* John Dalton Gibson's office hours must be booked in advance through his booking link.</p>
 
 <p>Changes to the office hours schedule will be posted on Piazza.</p>
 </div>
